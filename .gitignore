@@ -2,3 +2,5 @@ docs/*
 !docs/plans/
 
 .DS_Store
+/n8n-docs-sync
+.cache/
