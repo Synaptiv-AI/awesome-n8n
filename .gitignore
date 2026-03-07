@@ -1,4 +1,4 @@
-/docs
-docs/
+docs/*
+!docs/plans/
 
 .DS_Store
