@@ -12,6 +12,7 @@ Hey there, n8n enthusiasts! 🎉
 
 Welcome to **Awesome n8n** – your new favorite destination for everything related to advanced n8n workflows, templates, and resources. We're building something special here: a centralized hub where the n8n community comes together to share knowledge, discover powerful workflows, and push the boundaries of what's possible with automation.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code integrated with n8n workflows for multi-agent orchestration. MIT licensed.
 ### 🔥 The Problem We're Solving
 
 Let's be honest – finding high-quality, advanced n8n resources has been a challenge. Sure, the official documentation is great, but what about:
