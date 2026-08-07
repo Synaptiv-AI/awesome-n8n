@@ -51,6 +51,14 @@ You can find the `n8n-docs-llms.txt` file right here in the repository root. **D
 
 ---
 
+## 🧩 **Community Template Collections**
+
+While the curated library takes shape, these open collections are importable today:
+
+- **[n8n-templates](https://github.com/noderecipe52/n8n-templates)** — 8 MIT workflows, no signup, JSON in the repo. Four are reliability patterns that most template sets skip: an error handler that names the workflow and failing node, a heartbeat watchdog for the workflow that *never ran* (no execution, so an Error Trigger can't see it), an idempotency guard for re-runs after a partial failure, and a Slack approval gate for irreversible steps. Each carries sticky notes explaining the gotchas, and those travel with the file on import. Tested on n8n 2.x.
+
+---
+
 ## 🌟 **What's Next? Building the Best n8n Template Library, Together**
 
 The `n8n-docs-llms.txt` file is just the beginning of our journey! We have an ambitious vision for what **Awesome n8n** will become:
