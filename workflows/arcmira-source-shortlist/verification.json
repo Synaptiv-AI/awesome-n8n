@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-07T09:30:12.035667+00:00",
+  "host_version": "2.41.3",
+  "image": "n8nio/n8n@sha256:a92e49f8dee93d11a56574cafd98c78681bd9b839ead3b2e7268b2a22db18234",
+  "query": "creativity",
+  "limit": 3,
+  "requested_window": {
+    "after": "2026-08-01",
+    "before": "2026-09-01"
+  },
+  "tier": "free",
+  "on_demand_enabled_before": false,
+  "on_demand_enabled_after": false,
+  "credits_used": 0,
+  "on_demand_delta": 0,
+  "exit_code": 0,
+  "status": "success",
+  "nodes_executed": [
+    "Manual trigger",
+    "Search input",
+    "Search Arcmira",
+    "Build source shortlist"
+  ],
+  "node_attempt_counts": {
+    "Manual trigger": 1,
+    "Search input": 1,
+    "Search Arcmira": 1,
+    "Build source shortlist": 1
+  },
+  "returned": 3,
+  "applied_window": {
+    "after": "2026-08-01T00:00:00Z",
+    "before": "2026-09-01T00:00:00Z"
+  },
+  "output_source_fields_verified": true,
+  "partial": false,
+  "search_index": {
+    "state": "catching_up",
+    "missing_before": "2015-06-23"
+  },
+  "observed_network_scope": {
+    "account_usage_reads": 2,
+    "workflow_search_node_executions": 1,
+    "search_retry_enabled": false,
+    "pagination_configured": false,
+    "premium_transcript_requests": 0
+  },
+  "workflow_file": "arcmira-source-shortlist.n8n.json",
+  "distributed_workflow_sha256": "c776e6a8b642972dfc38da574486b3b0dabfb06c6d048447255e16f3b81d83d9",
+  "tested_source_sha256": "a50d1815fbd8dd45aa0b64486d1e5f92e16612eb15d07f335c6effe5f9d008bc",
+  "packaging_changes": "Removed only local workflow id and empty pinData/tags. Nodes, parameters, code, connections, settings and inactive state match the live-tested source. No execution or account data included.",
+  "live_execution_scope": "One actual authenticated workflow execution on n8n 2.41.3, with a Free account. Separate before/after account usage reads measured zero credit or on-demand change. No new execution performed while packaging.",
+  "limits": [
+    "Browser-editor import/run not exercised.",
+    "No claim of identical future search results or arbitrary YouTube coverage.",
+    "No playback, speaker identity, attribution or reuse-rights verification.",
+    "Not an n8n Cloud verification, WorkflowHub endorsement or publication receipt."
+  ],
+  "license_scope": "Apache-2.0 applies to workflow code and documentation. It does not license third-party video or transcript content or hosted-service access."
+}

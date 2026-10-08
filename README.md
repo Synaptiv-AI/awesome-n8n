@@ -80,6 +80,12 @@ Instead of everyone reinventing the wheel, we're creating a central repository w
 
 ---
 
+## Workflow examples
+
+- [Arcmira: YouTube Transcript Search](workflows/arcmira-source-shortlist/) - Find up to three timestamped passages with source links and coverage notes. Requires an [Arcmira](https://arcmira.com) account; see the [API docs](https://arcmira.com/docs). The workflow retains its Apache-2.0 license.
+
+---
+
 ## 🤝 **Join Us! We Need Your Help**
 
 This is a **community project**, and its success depends entirely on amazing people like you! Whether you're a n8n beginner or a workflow wizard, there's a place for you here.
