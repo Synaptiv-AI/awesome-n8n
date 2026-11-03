@@ -80,6 +80,17 @@ Instead of everyone reinventing the wheel, we're creating a central repository w
 
 ---
 
+## 🧩 **Community Nodes & Ready-to-Use Workflows**
+
+### 🎬 **AI Video & Media Automation**
+
+- **[`n8n-nodes-videoupscaler`](https://www.npmjs.com/package/n8n-nodes-videoupscaler)** ([GitHub](https://github.com/arkyu2077/n8n-nodes-videoupscaler) · [Integration Hub](https://videoupscaler.co/integrations) · [Workflow Docs](https://videoupscaler.co/docs/workflows)) — Official n8n community node and ready-to-import workflow templates for **4K AI Video Super-Resolution** powered by [VideoUpscaler](https://videoupscaler.co) (FlashVSR diffusion upscaling with temporal consistency and original audio preserved). Includes:
+  - [`workflows/videoupscaler-4k-ai-video/n8n-videoupscaler-workflow.json`](./workflows/videoupscaler-4k-ai-video/n8n-videoupscaler-workflow.json) — Self-documenting zero-install HTTP Request + server-side long-polling (`?wait=45`) template for n8n Cloud & self-hosted instances
+  - [`workflows/videoupscaler-4k-ai-video/n8n-videoupscaler-webhook-workflow.json`](./workflows/videoupscaler-4k-ai-video/n8n-videoupscaler-webhook-workflow.json) — Zero-polling async webhook callback pipeline (`X-VideoUpscaler-Event: task.completed`)
+  - [`workflows/videoupscaler-4k-ai-video/n8n-videoupscaler-node-workflow.json`](./workflows/videoupscaler-4k-ai-video/n8n-videoupscaler-node-workflow.json) — 3-node pipeline using the `n8n-nodes-videoupscaler` community node
+
+---
+
 ## 🤝 **Join Us! We Need Your Help**
 
 This is a **community project**, and its success depends entirely on amazing people like you! Whether you're a n8n beginner or a workflow wizard, there's a place for you here.
