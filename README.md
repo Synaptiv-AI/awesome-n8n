@@ -84,6 +84,11 @@ Instead of everyone reinventing the wheel, we're creating a central repository w
 
 This is a **community project**, and its success depends entirely on amazing people like you! Whether you're a n8n beginner or a workflow wizard, there's a place for you here.
 
+
+## Public Data APIs (Apify)
+
+- [Public Records data workflows](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/templates) - 17 ready-to-import n8n workflows (plus Make/Zapier/Pipedream HTTP recipes) that pull public data via Apify: SAM.gov and Grants.gov notices, USAspending awards, EU TED and UK tenders, city council agendas, Ashby/Greenhouse/Lever/SmartRecruiters jobs, Etsy sales, Google Ads Transparency, sports odds, Spotify plays.
+
 ### 🌟 **How You Can Contribute:**
 
 - **📝 Submit Your Best Templates**: Share your most creative, useful, or impressive n8n workflows
